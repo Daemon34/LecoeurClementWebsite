@@ -29,7 +29,7 @@ const Carousel = () => {
           "--swiper-navigation-color": "#5a463d",
           "--swiper-pagination-color": "#5a463d",
           padding: '20px 0 50px 0'
-        }}
+        } as React.CSSProperties}
       >
         {projects.map((proj, index) => (
           <SwiperSlide key={index}>
