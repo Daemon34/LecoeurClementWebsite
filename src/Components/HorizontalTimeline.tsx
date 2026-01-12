@@ -4,6 +4,7 @@ import WorkIcon from '@mui/icons-material/Work';
 import UbisoftParisLogo from '../assets/UbisoftParis.jpg';
 import UbisoftIVTLogo from '../assets/UbisoftIvoryTower.jpg';
 import UniversiteLimoges from '../assets/UniversiteLimoges.jpg';
+import ForwardDigitalLogo from '../assets/ForwardDigitalIcon.png';
 
 const HorizontalTimeline = () => {
     const experiences = [
@@ -14,6 +15,14 @@ const HorizontalTimeline = () => {
             typeIcon: <SchoolIcon />,
             icon: UniversiteLimoges,
             color: "#8d7b72"
+        },
+        {
+          title: "Web Developer Intern",
+          sub: "Forward Digital, France",
+          date: "2019",
+          typeIcon: <WorkIcon />,
+          icon: ForwardDigitalLogo,
+          color: "#8d7b72"
         },
         {
             title: "Master's Degree in Computer Science, Image Synthesis and Graphic Design",

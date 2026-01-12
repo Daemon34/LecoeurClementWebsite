@@ -2,7 +2,7 @@ import './App.css'
 import { createTheme, ThemeProvider } from '@mui/material/styles';
 import HorizontalTimeline from './Components/HorizontalTimeline';
 import Carousel from './Components/Carousel';
-import { Divider } from '@mui/material';
+import { Divider, Typography } from '@mui/material';
 import SkillMatrix from './Components/SkillMatrix';
 
 const theme = createTheme({
@@ -25,6 +25,8 @@ function App() {
       <Divider/>
       <HorizontalTimeline />
       <Divider/>
+      <h1>Projects</h1>
+      <Typography><i>You can click on each tile to see details.</i></Typography>
       <Carousel />
       <Divider />
       <h1>Skills</h1>
