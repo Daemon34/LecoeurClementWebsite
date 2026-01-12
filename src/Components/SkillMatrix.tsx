@@ -55,9 +55,9 @@ const SkillMatrix = () => {
 
   return (
     <Box sx={{ flexGrow: 1, p: 4 }}>
-      <Grid container columns={{xs: 12, sm: 6, md: 4}} spacing={3}>
+      <Grid container spacing={3}>
         {data.map((item) => (
-          <Grid size={1} key={item.category}>
+          <Grid size={{xs: 12, sm: 6, md: 3}} key={item.category}>
             <Card variant="outlined" sx={{ height: '100%', borderRadius: 2 }}>
               <CardContent>
                 <Typography variant="h6" component="div" gutterBottom sx={{ fontWeight: 'bold' }}>
