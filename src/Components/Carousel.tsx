@@ -56,8 +56,8 @@ const Carousel = () => {
       title: "The Crew 2",
       img: TheCrew2,
       tech: "C# / Cloud / DevOps",
-      description: "",
-      skills: ["C#", "OpenStack", "QuickBuild"],
+      description: "After working on Just Dance, I've moved to The Crew project, where I was in charge of the build system that was using QuickBuild and C# scripts, and the hybrid cloud and physical build farm. I also converted a HTML / PHP web dashboard to React for the frontend and a NodeJS API for the backend that was linked to different MySQL database or externals API. I then increased scalability and availability by hosting it to a Kubernetes cluster. Finaly, the role also had some live experience for deploying live game server on AWS.",
+      skills: ["C#", "OpenStack", "QuickBuild", "React", "NodeJS", "Docker", "Kubernetes", "AWS"],
       video: "https://www.youtube.com/embed/MXN1nmL-DQU?si=giArMwR92prEqiTh",
       github: ""
     },
@@ -65,8 +65,8 @@ const Carousel = () => {
       title: "The Crew Motorfest",
       img: TheCrewMotorfest,
       tech: "C# / Cloud / DevOps",
-      description: "",
-      skills: ["C#", "OpenStack", "QuickBuild"],
+      description: "After The Crew 2, I worked on The Crew Motorfest. Maintaining the build system based on QuickBuild and C# script, and the hybrid build farm that was using OpenStack and Windows. I also made a central web dashboard for different purposes in the production using React, NodeJS and MySQL, and hosted it on Azure Kubernetes Service. Finaly, the role also had some live experience for deploying live game server on AWS.",
+      skills: ["C#", "OpenStack", "QuickBuild", "React", "NodeJS", "Docker", "Kubernetes", "AWS", "Azure"],
       video: "https://www.youtube.com/embed/ugKIELPN8mI?si=YWXt0naZGJ8lxhXN",
       github: ""
     },
@@ -75,8 +75,8 @@ const Carousel = () => {
       img: UnrealGASSurvival,
       tech: "C++ / Unreal Engine",
       description: "A personal project with the goal to improve my skills on Unreal Engine and the Gameplay Ability System framework. This is a solo survival RPG game where waves of AI Enemies try to kill you and you have to survive all the waves.",
-      skills: ["C++", "Unreal Engine"],
-      video: "",
+      skills: ["C++", "Unreal Engine", "GAS"],
+      video: "https://www.youtube.com/embed/3_a6VTYY8Bc?si=d-LVKclvOmQWF5jf",
       github: "https://github.com/Daemon34/GAS-Survival-ARPG"
     },
     { 
