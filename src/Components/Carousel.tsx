@@ -31,7 +31,7 @@ const Carousel = () => {
       tech: "C# / Unity / Cloud / DevOps",
       description: "As my first professional project in the video game industry, I was in charge of the Cloud Build Farm using Ubisoft internal Cloud based on OpenStack, and the Build System using QuickBuild. I was making scripts in Groovy, or with an internal tool using C#.",
       skills: ["C#", "Unity", "OpenStack", "QuickBuild", "Windows"],
-      video: "",
+      video: "https://www.youtube.com/embed/Vnab1gHwJeY?si=nRpDMc4fca_GZvbV",
       github: ""
     },
     { 
@@ -40,7 +40,7 @@ const Carousel = () => {
       tech: "C# / Unity / Cloud / DevOps",
       description: "After Just Dance 2022, I worked on Just Dance 2023 using the same tech as the previous opus. I added more tools using C# or React and NodeJS to ease pipeline for Gameplay Programmer, Content Teams or Producer, while still maintaining the cloud build farm and the build system.",
       skills: ["C#", "Unity", "OpenStack", "QuickBuild", "Windows", "React", "NodeJS"],
-      video: "",
+      video: "https://www.youtube.com/embed/N_5pIQ8Ka6s?si=6nFv19rDd6YzY2PS",
       github: ""
     },
     { 
@@ -49,7 +49,7 @@ const Carousel = () => {
       tech: "C# / Unity / Cloud / DevOps",
       description: "After Just Dance 2023, I worked on Just Dance 2024. To improve build system stability and scalability, I started to migrate some criticals pipeline from QuickBuild to TeamCity, while still maintaining and improving existing tools from previous opus.",
       skills: ["C#", "Unity", "OpenStack", "QuickBuild", "TeamCity", "React", "NodeJS", "Windows"],
-      video: "",
+      video: "https://www.youtube.com/embed/Rphxj3TKM5o?si=aTVZwyZVISYeVQzR",
       github: ""
     },
     { 
@@ -58,7 +58,7 @@ const Carousel = () => {
       tech: "C# / Cloud / DevOps",
       description: "",
       skills: ["C#", "OpenStack", "QuickBuild"],
-      video: "",
+      video: "https://www.youtube.com/embed/MXN1nmL-DQU?si=giArMwR92prEqiTh",
       github: ""
     },
     { 
@@ -67,7 +67,7 @@ const Carousel = () => {
       tech: "C# / Cloud / DevOps",
       description: "",
       skills: ["C#", "OpenStack", "QuickBuild"],
-      video: "",
+      video: "https://www.youtube.com/embed/ugKIELPN8mI?si=YWXt0naZGJ8lxhXN",
       github: ""
     },
     { 
@@ -77,7 +77,7 @@ const Carousel = () => {
       description: "A personal project with the goal to improve my skills on Unreal Engine and the Gameplay Ability System framework. This is a solo survival RPG game where waves of AI Enemies try to kill you and you have to survive all the waves.",
       skills: ["C++", "Unreal Engine"],
       video: "",
-      github: ""
+      github: "https://github.com/Daemon34/GAS-Survival-ARPG"
     },
     { 
       title: "Unity ECS Project",
@@ -85,7 +85,7 @@ const Carousel = () => {
       tech: "C# / Unity",
       description: "A personal project with the goal to learn the Entity Component System of Unity to improve my optimization skills on this game engine. This is a survival game where you play as a tank and you are attacked by hundreds of drones. Your goal : survive as much as possible.",
       skills: ["C#", "Unity", "Optimization"],
-      video: "",
+      video: "https://www.youtube.com/embed/xtyd3DcIDG8?si=7TNVxfklHdovMjKR",
       github: ""
     },
     { 
@@ -94,7 +94,7 @@ const Carousel = () => {
       tech: "C# / Unity",
       description: "A personal project with the goal to learn Networking on Unity. This is a multiplayer FPS game made with this game engine.",
       skills: ["C#", "Unity", "Networking"],
-      video: "",
+      video: "https://www.youtube.com/embed/IaYTCdynk0w?si=yNNutzGdDRQWqnjR",
       github: ""
     },
     { 
@@ -104,7 +104,7 @@ const Carousel = () => {
       description: "A personal project with the goal to learn Vulkan. This is a real time 3D renderer made with C++.",
       skills: ["C++", "Vulkan"],
       video: "",
-      github: ""
+      github: "https://github.com/Daemon34/VulkanRenderer"
     },
     { 
       title: "WebGL RealTime 3D PBR",
@@ -113,7 +113,7 @@ const Carousel = () => {
       description: "A project made during my master degrees where I had to create a WebGL realtime 3D Physically Based Renderer. The user can choose different PBR models and select different parameters.",
       skills: ["JavaScript", "WebGL", "Mathematics"],
       video: "",
-      github: ""
+      github: "https://github.com/Daemon34/WebGL-PBR-Renderer"
     },
     { 
       title: "3D CPU Raytracer Renderer",
@@ -122,7 +122,7 @@ const Carousel = () => {
       description: "A project made during my master degrees where I had to create a C++ Offline Raytracer Renderer on CPU. This use extensive optimization methods to be able to render the scene only using CPU without needing several weeks to do it.",
       skills: ["C++", "OpenGL", "Mathematics", "Optimization"],
       video: "",
-      github: ""
+      github: "https://github.com/Daemon34/3D-Render-Engine"
     },
   ];
 
@@ -205,11 +205,11 @@ const Carousel = () => {
 
             <DialogContent>
               <Grid container spacing={3}>
-                <Grid columns={{xs: 12, md:activeProject?.video == "" ? 6 : 12}} sx={{ margin: 'auto'}}>
+                <Grid columns={{xs: 12, md:activeProject?.video == "" ? 6 : 12}} sx={{ margin: 'auto', width: '100%'}}>
                   {activeProject.video ? (
-                    <Box sx={{ position: 'relative', pt: '56.25%', borderRadius: '12px', overflow: 'hidden' }}>
+                    <Box sx={{ position: 'relative', borderRadius: '12px', width: '100%' }}>
                       <iframe
-                        style={{ position: 'absolute', top: 0, left: 0, width: '100%', height: '100%', border: 0 }}
+                        style={{ position: 'relative', height: '400px', border: 0, width: '100%' }}
                         src={activeProject.video}
                         title="Project Video"
                         allowFullScreen
