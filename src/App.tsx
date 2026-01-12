@@ -20,8 +20,8 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <p><strong>Clement Lecoeur</strong></p>
-      <h1>C#/C++ Developer</h1>
-      <p className="read-the-docs">With Web, Cloud & DevOps Skills</p>
+      <h1>Full-Stack Engineer</h1>
+      <p className="read-the-docs">With Cloud & DevOps Skills</p>
       <Divider/>
       <HorizontalTimeline />
       <Divider/>
