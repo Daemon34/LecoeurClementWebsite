@@ -5,12 +5,11 @@ const SkillMatrix = () => {
     {
       category: "Languages",
       skills: [
-        { name: "QuickBuild", level: 100 },
         { name: "C# / .NET", level: 80 },
         { name: "TypeScript", level: 80 },
-        { name: "MySQL", level: 80 },
-        { name: "C++", level: 60 },
         { name: "Java", level: 60 },
+        { name: "C++", level: 60 },
+        { name: "MySQL", level: 80 },
         { name: "MongoDB", level: 60 },
         { name: "Python", level: 40 },
       ]
@@ -41,6 +40,7 @@ const SkillMatrix = () => {
         { name: "Docker", level: 80 },
         { name: "TeamCity", level: 60 },
         { name: "Kubernetes", level: 60 },
+        { name: "QuickBuild", level: 100 },
       ]
     }
   ];
