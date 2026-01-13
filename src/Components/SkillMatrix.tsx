@@ -1,50 +1,7 @@
 import { Grid, Card, CardContent, Typography, Box, Chip, Divider } from '@mui/material';
+import { Skills } from '../Database';
 
 const SkillMatrix = () => {
-  const data = [
-    {
-      category: "Languages",
-      skills: [
-        { name: "C# / .NET", level: 80 },
-        { name: "TypeScript", level: 80 },
-        { name: "Java", level: 60 },
-        { name: "C++", level: 60 },
-        { name: "MySQL", level: 80 },
-        { name: "MongoDB", level: 60 },
-        { name: "Python", level: 40 },
-      ]
-    },
-    {
-      category: "Frameworks / Softwares",
-      skills: [
-        { name: "React", level: 80 },
-        { name: "NodeJS", level: 80 },
-        { name: "Unity", level: 60 },
-        { name: "Unreal Engine", level: 40 },
-        { name: "Windows", level: 80 },
-        { name: "Linux", level: 60 },
-      ]
-    },
-    {
-      category: "Cloud Platforms",
-      skills: [
-        { name: "OpenStack", level: 80 },
-        { name: "AWS", level: 60 },
-        { name: "Azure", level: 40 },
-      ]
-    },
-    {
-      category: "DevOps",
-      skills: [
-        { name: "GitLab CI", level: 80 },
-        { name: "Docker", level: 80 },
-        { name: "TeamCity", level: 60 },
-        { name: "Kubernetes", level: 60 },
-        { name: "QuickBuild", level: 100 },
-      ]
-    }
-  ];
-
   const getLevelDetails = (value: number) => {
     if (value >= 80) return { label: 'Expert', color: '#1b5e20' };       
     if (value >= 60) return { label: 'Advanced', color: '#4caf50' };     
@@ -56,7 +13,7 @@ const SkillMatrix = () => {
   return (
     <Box sx={{ flexGrow: 1, p: 4 }}>
       <Grid container spacing={3}>
-        {data.map((item) => (
+        {Skills.map((item) => (
           <Grid size={{xs: 12, sm: 6, md: 3}} key={item.category}>
             <Card variant="outlined" sx={{ height: '100%', borderRadius: 2 }}>
               <CardContent>

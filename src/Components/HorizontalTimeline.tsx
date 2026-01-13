@@ -1,55 +1,7 @@
 import { Box, Typography, Avatar, Divider } from '@mui/material';
-import SchoolIcon from '@mui/icons-material/School';
-import WorkIcon from '@mui/icons-material/Work';
-import UbisoftParisLogo from '../assets/UbisoftParis.jpg';
-import UbisoftIVTLogo from '../assets/UbisoftIvoryTower.jpg';
-import UniversiteLimoges from '../assets/UniversiteLimoges.jpg';
-import ForwardDigitalLogo from '../assets/ForwardDigitalIcon.png';
+import { Experiences } from '../Database';
 
 const HorizontalTimeline = () => {
-    const experiences = [
-        {
-            title: "Bachelor's Degree in Computer Science",
-            sub: "Faculty of Science & Technology, Limoges's University, France",
-            date: "2016 - 2019",
-            typeIcon: <SchoolIcon />,
-            icon: UniversiteLimoges,
-            color: "#8d7b72"
-        },
-        {
-          title: "Web Developer Intern",
-          sub: "Forward Digital, France",
-          date: "2019",
-          typeIcon: <WorkIcon />,
-          icon: ForwardDigitalLogo,
-          color: "#8d7b72"
-        },
-        {
-            title: "Master's Degree in Computer Science, Image Synthesis and Graphic Design",
-            sub: "Faculty of Science & Technology, Limoges's University, France",
-            date: "2019 - 2021",
-            typeIcon: <SchoolIcon />,
-            icon: UniversiteLimoges,
-            color: "#8d7b72"
-        },
-        {
-            title: "Junior Release & Build Specialist",
-            sub: "Ubisoft Paris, France",
-            date: "2021 - 2023",
-            typeIcon: <WorkIcon />,
-            icon: UbisoftParisLogo,
-            color: "#5a463d"
-        },
-        {
-            title: "Release & Build Specialist",
-            sub: "Ubisoft Ivory Tower, France",
-            date: "2023 - Present",
-            typeIcon: <WorkIcon />,
-            icon: UbisoftIVTLogo,
-            color: "#5a463d"
-        }
-    ];
-  
     return (
       <Box sx={{ py: 10, width: '100%', overflowX: 'auto' }}>
         <Box sx={{ 
@@ -69,7 +21,7 @@ const HorizontalTimeline = () => {
             zIndex: 0 
           }} />
   
-          {experiences.map((exp, index) => (
+          {Experiences.map((exp, index) => (
             <Box key={index} sx={{ 
               width: 300, 
               display: 'flex', 
