@@ -4,6 +4,7 @@ import HorizontalTimeline from './Components/HorizontalTimeline';
 import Carousel from './Components/Carousel';
 import { Divider, Typography } from '@mui/material';
 import SkillMatrix from './Components/SkillMatrix';
+import ContactSection from './Components/ContactSection';
 
 const theme = createTheme({
   palette: {
@@ -22,6 +23,7 @@ function App() {
       <p><strong>Clement Lecoeur</strong></p>
       <h1>Full-Stack Engineer</h1>
       <p className="read-the-docs">With Cloud & DevOps Skills</p>
+      <ContactSection />
       <Divider/>
       <HorizontalTimeline />
       <Divider/>
