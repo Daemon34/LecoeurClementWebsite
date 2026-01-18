@@ -172,6 +172,8 @@ export const Skills = [
         { name: "MySQL", level: 80 },
         { name: "MongoDB", level: 60 },
         { name: "Python", level: 40 },
+        { name: "HTML", level: 80 },
+        { name: "CSS", level: 80}
       ]
     },
     {
@@ -183,6 +185,8 @@ export const Skills = [
         { name: "Unreal Engine", level: 40 },
         { name: "Windows", level: 80 },
         { name: "Linux", level: 60 },
+        { name: "Jira", level: 80},
+        { name: "Confluence", level: 80}
       ]
     },
     {
