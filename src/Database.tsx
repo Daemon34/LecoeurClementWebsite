@@ -15,6 +15,7 @@ import UbisoftParisLogo from './assets/UbisoftParis.jpg';
 import UbisoftIVTLogo from './assets/UbisoftIvoryTower.jpg';
 import UniversiteLimoges from './assets/UniversiteLimoges.jpg';
 import ForwardDigitalLogo from './assets/ForwardDigitalIcon.png';
+import AIChatBot from './assets/AIChatBot.png';
 
 export const Projects = [
     { 
@@ -115,6 +116,15 @@ export const Projects = [
       skills: ["C++", "OpenGL", "Mathematics", "Optimization"],
       video: "",
       github: "https://github.com/Daemon34/3D-Render-Engine"
+    },
+    { 
+      title: "AI Chat Bot",
+      img: AIChatBot,
+      tech: "C# / React",
+      description: "A personal project where I wanted to experience how to use OpenAI SDK to use LLM Models to make a Chat Bot. I also wanted to try to implement Glass Design using TailWindCSS.",
+      skills: ["C#", "React", "TypeScript", "TailWindCSS"],
+      video: "",
+      github: "https://github.com/Daemon34/IAChatBot"
     },
 ];
 

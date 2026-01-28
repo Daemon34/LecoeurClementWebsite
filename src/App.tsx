@@ -21,7 +21,7 @@ function App() {
   return (
     <ThemeProvider theme={theme}>
       <p><strong>Clement Lecoeur</strong></p>
-      <h1>Full-Stack Engineer</h1>
+      <h1>Passionate C#/C++ Developer</h1>
       <p className="read-the-docs">With Cloud & DevOps Skills</p>
       <ContactSection />
       <Divider/>
