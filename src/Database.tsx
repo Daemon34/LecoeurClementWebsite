@@ -175,11 +175,13 @@ export const Skills = [
     {
       category: "Languages",
       skills: [
+        { name: "Bash", level: 80 },
+        { name: "PowerShell", level: 80 },
         { name: "C# / .NET", level: 80 },
         { name: "TypeScript", level: 80 },
         { name: "Java", level: 60 },
         { name: "C++", level: 60 },
-        { name: "MySQL", level: 80 },
+        { name: "MySQL", level: 100 },
         { name: "MongoDB", level: 60 },
         { name: "Python", level: 40 },
         { name: "HTML", level: 80 },
@@ -189,12 +191,15 @@ export const Skills = [
     {
       category: "Frameworks / Softwares",
       skills: [
+        { name: "Grafana", level: 80},
+        { name: "Prometheus", level: 80},
+        { name: "Datadog", level: 60},
         { name: "React", level: 80 },
         { name: "NodeJS", level: 80 },
         { name: "Unity", level: 60 },
         { name: "Unreal Engine", level: 40 },
         { name: "Windows", level: 80 },
-        { name: "Linux", level: 60 },
+        { name: "Linux", level: 80 },
         { name: "Jira", level: 80},
         { name: "Confluence", level: 80}
       ]
@@ -213,7 +218,7 @@ export const Skills = [
         { name: "GitLab CI", level: 80 },
         { name: "Docker", level: 80 },
         { name: "TeamCity", level: 60 },
-        { name: "Kubernetes", level: 60 },
+        { name: "Kubernetes", level: 80 },
         { name: "QuickBuild", level: 100 },
       ]
     }
